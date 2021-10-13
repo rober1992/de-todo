@@ -1,0 +1,61 @@
+.productos{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    @include movil{
+        display: block;
+    }
+    @include tablet{
+        display: block;
+    }
+    &__side{
+        width: 20%;
+        background-color: #008dd4;
+        @include movil{
+            width: 100%;
+        }
+        @include tablet{
+            width: 100%;
+        }
+        &--links ul{
+            list-style: none;
+            align-self: center;
+            @include movil{
+                display: block;
+            }
+            @include tablet{
+                display: block;
+            }
+        }
+        &--links ul li{
+            padding-bottom: 40px;
+            padding-top: 10px;
+            border-bottom: solid 1px;
+        }
+        &--links ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            font-size: 1.6rem;
+            @include movil{
+                font-size: 1.2rem;
+            }
+            @include tablet{
+                font-size: 1.2rem;
+            }
+        }
+        &--links ul li a:hover{
+            color: rgb(161, 180, 136);
+        }
+    
+
+    }
+    &__img{
+        width: 80%;
+        display: flex;
+    }
+
+    .container{
+        background-color: white;
+    }
+}
