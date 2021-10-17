@@ -8,7 +8,7 @@ $color-boton:#083A59;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 100px;
+	padding: 20px;
 }
 
 .contact-box{
@@ -24,6 +24,9 @@ $color-boton:#083A59;
 
 .formu{
 	padding: 25px 40px;
+	@include movil{
+		padding: 25px 15px;
+	}
 }
 
 h2{

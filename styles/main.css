@@ -60,7 +60,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 100px;
+  padding: 20px;
 }
 
 .contact-box {
@@ -81,6 +81,12 @@
 
 .formu {
   padding: 25px 40px;
+}
+
+@media screen and (max-width: 475px) {
+  .formu {
+    padding: 25px 15px;
+  }
 }
 
 h2 {
