@@ -4,3 +4,9 @@
         padding-top: 0 !important;
     }
 }
+
+.w-75{
+    @include movil{
+        width: 95% !important;
+    }
+}
