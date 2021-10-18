@@ -1,0 +1,6 @@
+/*Este es el padding de Bienvenido*/
+.py-5{  
+    @include movil{
+        padding-top: 0 !important;
+    }
+}

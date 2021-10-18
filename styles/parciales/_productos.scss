@@ -17,6 +17,12 @@
         @include tablet{
             width: 100%;
         }
+        @include portatil{
+            width: 30%;
+        }
+        @include uhd{
+            width: 20%;
+        }
         &--links ul{
             list-style: none;
             align-self: center;

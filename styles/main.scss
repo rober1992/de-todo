@@ -2,6 +2,7 @@
 @import "./parciales/quienes-somos";
 @import "./parciales/contacto";
 @import "./parciales/productos";
+@import "./parciales/iniciar-sesion";
 
 body{
     font-family: 'Bebas Neue', cursive;
@@ -20,6 +21,16 @@ body{
 .navbar{
     border-bottom: 1px solid #F2F2F2;
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+      @include portatil{
+          padding-right: 0.3rem;
+          padding-left: 0.2rem;
+      }
+      @include uhd{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
   }
 
 .enc__container{
