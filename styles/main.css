@@ -291,9 +291,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 6px;
-  -webkit-box-shadow: 0 0 0.1em;
-          box-shadow: 0 0 0.1em;
+  border-radius: 20px;
   cursor: pointer;
   -webkit-transition-property: -webkit-box-shadow;
   transition-property: -webkit-box-shadow;
@@ -302,6 +300,7 @@ body {
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .producto .producto__imagen {
