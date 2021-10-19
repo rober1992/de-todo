@@ -340,16 +340,19 @@ body {
           transition-duration: 0.3s;
   margin-bottom: 20px;
   margin-top: 10px;
+  -webkit-box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.1);
 }
 
 .producto .producto__imagen {
   width: 100%;
   height: 320px;
+  border-radius: 20px;
 }
 
 .producto:hover {
-  -webkit-box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.3);
 }
 
 .informacion {
