@@ -8,5 +8,9 @@
 .w-75{
     @include movil{
         width: 95% !important;
+        height: auto !important;
+    }
+    @include land{
+        height: auto !important;
     }
 }

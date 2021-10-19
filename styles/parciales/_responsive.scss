@@ -9,6 +9,11 @@
         @content;
     }   
 }
+@mixin land{
+    @media  (orientation: landscape) {
+        @content;
+    }
+}
 @mixin portatil {
     @media screen and(min-width: 992px){
       @content; 

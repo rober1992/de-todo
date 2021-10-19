@@ -272,6 +272,13 @@ textarea {
 @media screen and (max-width: 475px) {
   .w-75 {
     width: 95% !important;
+    height: auto !important;
+  }
+}
+
+@media (orientation: landscape) {
+  .w-75 {
+    height: auto !important;
   }
 }
 
