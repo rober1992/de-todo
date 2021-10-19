@@ -166,7 +166,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 476px) {
   .productos {
     display: block;
   }
@@ -180,12 +180,14 @@ textarea {
 @media screen and (max-width: 475px) {
   .productos__side {
     width: 100%;
+    padding-bottom: 1px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 476px) {
   .productos__side {
     width: 100%;
+    padding-bottom: 1px;
   }
 }
 
@@ -214,7 +216,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 476px) {
   .productos__side--links ul {
     display: block;
   }
@@ -239,7 +241,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 476px) {
   .productos__side--links ul li a {
     font-size: 1.2rem;
   }
@@ -338,7 +340,6 @@ body {
   transition-property: box-shadow, -webkit-box-shadow;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
-  margin-bottom: 20px;
   margin-top: 10px;
   -webkit-box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.1);
@@ -404,9 +405,17 @@ body {
   margin-bottom: 20px;
 }
 
-@media (max-width: 425px) {
+@media screen and (min-width: 476px) {
+  .navbar-brand {
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 475px) {
   .navbar-brand .navbar-brand__imagen {
     width: 200px;
+    padding-left: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */

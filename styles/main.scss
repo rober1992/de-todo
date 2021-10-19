@@ -54,7 +54,6 @@ body{
     cursor: pointer;
     transition-property: box-shadow;
     transition-duration: 0.3s;
-    margin-bottom: 20px;
     margin-top: 10px;
     box-shadow: 0 0 1.5em rgba(0, 0, 0, .1);
     .producto__imagen{
@@ -109,14 +108,21 @@ body{
     margin-bottom: 20px;
 }
 
-@media (max-width: 425px){
-    .navbar-brand{
-            .navbar-brand__imagen{
-        width: 200px;
+.navbar-brand{
+    @include tablet{
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+        .navbar-brand__imagen{
+        @include movil{
+            width: 200px;
+            padding-left: 10px;
+        }
+
     }
 
 }
-}
+
 
 
 
