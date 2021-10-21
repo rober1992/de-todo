@@ -3,6 +3,7 @@
 @import "./parciales/contacto";
 @import "./parciales/productos";
 @import "./parciales/iniciar-sesion";
+@import "./parciales/footer";
 
 body{
     font-family: 'Bebas Neue', cursive;
@@ -11,12 +12,6 @@ body{
     background-color: #f0f2f5;
 }
 
-.enc{
-    border-bottom: 1px solid #F2F2F2;
-    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
-    background: rgb(4,45,71);
-    background: linear-gradient(90deg, rgba(4,45,71,1) 19%, rgba(16,71,106,1) 46%, rgba(13,83,124,1) 59%, rgba(0,141,212,1) 100%);
-}
 
 .navbar{
     border-bottom: 1px solid #F2F2F2;
@@ -33,14 +28,6 @@ body{
     }
   }
 
-.enc__container{
-    .enc__container--red-social{
-        text-decoration: none;
-        color: #F2F2F2;
-        font-size: 20px;
-        padding: 0 15px;
-    }
-}
 .container{
     background-color: white;
 }
