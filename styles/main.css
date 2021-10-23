@@ -262,6 +262,13 @@ textarea {
   background-color: white;
 }
 
+.titulo-productos h2 {
+  color: black;
+  font-weight: 600;
+  border-bottom: solid 1px #083A59;
+  padding-top: 10px;
+}
+
 /*Este es el padding de Bienvenido*/
 @media screen and (max-width: 475px) {
   .py-5 {
