@@ -128,7 +128,6 @@ footer p{
 }
 .contacto .info li{
    display: flex;
-   margin-bottom: 16px;
 }
 .contacto .info li span:nth-child(1){
    color: #fff;
@@ -137,6 +136,7 @@ footer p{
 }
 .contacto .info li span{
    color: #999;
+   margin-bottom: 10px;
 }
 .contacto .info li a{
    color: #999;
