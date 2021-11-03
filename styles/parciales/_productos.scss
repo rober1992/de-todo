@@ -91,12 +91,11 @@
     
     }
 
-  .navbar-toggler{
-        .fa-arrows-alt-v{
-            color: #008dd4;
-            font-size: 30px;
+    .navbar-toggler{
+        .bi-collapse, .bi-expand{
+            color: #fff;
         }
-  }
+      }
 
   .navbar-toggler:not(.collapsed) .bi-expand{
       display: none;
@@ -112,3 +111,5 @@
   .container-fluid.desplegable{
       justify-content: center;
   }
+
+
