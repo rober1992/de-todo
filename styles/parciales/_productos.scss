@@ -8,13 +8,12 @@
     @include tablet{
         display: block;
     }
-    &__side{
+    &__side, &__side2{
         width: 20%;
         background-color: #008dd4;
         @include movil{
             width: 100%;
             padding-bottom: 1px;
-            // display: none;
         }
         @include tablet{
             width: 100%;
@@ -58,6 +57,11 @@
         }
     
 
+    }
+    &__side{
+        @include movil{
+            display: none;
+        }
     }
     &__img{
         width: 80%;

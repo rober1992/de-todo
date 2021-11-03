@@ -172,38 +172,38 @@ textarea {
   }
 }
 
-.productos__side {
+.productos__side, .productos__side2 {
   width: 20%;
   background-color: #008dd4;
 }
 
 @media screen and (max-width: 475px) {
-  .productos__side {
+  .productos__side, .productos__side2 {
     width: 100%;
     padding-bottom: 1px;
   }
 }
 
 @media screen and (min-width: 476px) and (max-width: 991px) {
-  .productos__side {
+  .productos__side, .productos__side2 {
     width: 100%;
     padding-bottom: 1px;
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 2559px) {
-  .productos__side {
+  .productos__side, .productos__side2 {
     width: 30%;
   }
 }
 
 @media screen and (min-width: 2560px) {
-  .productos__side {
+  .productos__side, .productos__side2 {
     width: 20%;
   }
 }
 
-.productos__side--links ul {
+.productos__side--links ul, .productos__side2--links ul {
   list-style: none;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -211,24 +211,24 @@ textarea {
 }
 
 @media screen and (max-width: 475px) {
-  .productos__side--links ul {
+  .productos__side--links ul, .productos__side2--links ul {
     display: block;
   }
 }
 
 @media screen and (min-width: 476px) and (max-width: 991px) {
-  .productos__side--links ul {
+  .productos__side--links ul, .productos__side2--links ul {
     display: block;
   }
 }
 
-.productos__side--links ul li {
+.productos__side--links ul li, .productos__side2--links ul li {
   padding-bottom: 40px;
   padding-top: 10px;
   border-bottom: solid 1px;
 }
 
-.productos__side--links ul li a {
+.productos__side--links ul li a, .productos__side2--links ul li a {
   text-decoration: none;
   color: white;
   font-weight: 500;
@@ -236,19 +236,25 @@ textarea {
 }
 
 @media screen and (max-width: 475px) {
-  .productos__side--links ul li a {
+  .productos__side--links ul li a, .productos__side2--links ul li a {
     font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 476px) and (max-width: 991px) {
-  .productos__side--links ul li a {
+  .productos__side--links ul li a, .productos__side2--links ul li a {
     font-size: 1.2rem;
   }
 }
 
-.productos__side--links ul li a:hover {
+.productos__side--links ul li a:hover, .productos__side2--links ul li a:hover {
   color: #a1b488;
+}
+
+@media screen and (max-width: 475px) {
+  .productos__side {
+    display: none;
+  }
 }
 
 .productos__img {
