@@ -269,6 +269,47 @@ textarea {
   padding-top: 10px;
 }
 
+@media screen and (min-width: 476px) and (max-width: 991px) {
+  .menu-productos {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 2559px) {
+  .menu-productos {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .menu-productos {
+    display: none;
+  }
+}
+
+.navbar-toggler .fa-arrows-alt-v {
+  color: #008dd4;
+  font-size: 30px;
+}
+
+.navbar-toggler:not(.collapsed) .bi-expand {
+  display: none;
+}
+
+.navbar-toggler:not(.collapsed) .bi-collapse {
+  display: inline-block;
+}
+
+.navbar-toggler .bi-collapse {
+  display: none;
+}
+
+.container-fluid.desplegable {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /*Este es el padding de Bienvenido*/
 @media screen and (max-width: 475px) {
   .py-5 {

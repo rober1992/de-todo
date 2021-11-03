@@ -14,6 +14,7 @@
         @include movil{
             width: 100%;
             padding-bottom: 1px;
+            // display: none;
         }
         @include tablet{
             width: 100%;
@@ -76,3 +77,38 @@
         padding-top: 10px;
     }
 }
+
+ .menu-productos{
+     @include tablet{
+         display: none;
+     }
+     @include portatil {
+         display: none;
+     }
+     @include uhd{
+         display: none;
+     }
+    
+    }
+
+  .navbar-toggler{
+        .fa-arrows-alt-v{
+            color: #008dd4;
+            font-size: 30px;
+        }
+  }
+
+  .navbar-toggler:not(.collapsed) .bi-expand{
+      display: none;
+  }
+
+  .navbar-toggler:not(.collapsed) .bi-collapse{
+      display: inline-block;
+  }
+  .navbar-toggler .bi-collapse{
+      display: none;
+  }
+
+  .container-fluid.desplegable{
+      justify-content: center;
+  }
