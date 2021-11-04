@@ -83,9 +83,6 @@
 }
 
  .menu-productos{
-     @include tablet{
-         display: none;
-     }
      @include portatil {
          display: none;
      }
@@ -95,11 +92,18 @@
     
     }
 
-    .navbar-toggler{
+    .menu-productos .navbar-toggler{
+        background: rgb(4,45,71);
+        background: linear-gradient(90deg, rgba(4,45,71,1) 19%, rgba(16,71,106,1) 46%, rgba(13,83,124,1) 59%, rgba(0,141,212,1) 100%);
+        border-radius: 0.50rem;
         .bi-collapse, .bi-expand{
             color: #fff;
         }
       }
+
+  .navbar-toggler:focus{
+      box-shadow: none;
+  }
 
   .navbar-toggler:not(.collapsed) .bi-expand{
       display: none;
@@ -114,6 +118,13 @@
 
   .container-fluid.desplegable{
       justify-content: center;
+  }
+
+  .productos-sec{
+      font-weight: 600;
+      font-size: 1rem;
+      color: #fff;
+      margin-bottom: 0;
   }
 
 

@@ -275,12 +275,6 @@ textarea {
   padding-top: 10px;
 }
 
-@media screen and (min-width: 476px) and (max-width: 991px) {
-  .menu-productos {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 992px) and (max-width: 2559px) {
   .menu-productos {
     display: none;
@@ -293,8 +287,20 @@ textarea {
   }
 }
 
-.navbar-toggler .bi-collapse, .navbar-toggler .bi-expand {
+.menu-productos .navbar-toggler {
+  background: #042d47;
+  background: -webkit-gradient(linear, left top, right top, color-stop(19%, #042d47), color-stop(46%, #10476a), color-stop(59%, #0d537c), to(#008dd4));
+  background: linear-gradient(90deg, #042d47 19%, #10476a 46%, #0d537c 59%, #008dd4 100%);
+  border-radius: 0.50rem;
+}
+
+.menu-productos .navbar-toggler .bi-collapse, .menu-productos .navbar-toggler .bi-expand {
   color: #fff;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .navbar-toggler:not(.collapsed) .bi-expand {
@@ -313,6 +319,13 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.productos-sec {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0;
 }
 
 /*Este es el padding de Bienvenido*/
@@ -486,7 +499,7 @@ footer p {
   background: #008dd4;
 }
 
-.sci li a .fa {
+.sci li a .fab {
   color: #fff;
   font-size: 20px;
 }
