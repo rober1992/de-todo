@@ -574,7 +574,7 @@ footer p {
   margin-bottom: 10px;
 }
 
-.contacto .info li a {
+.contacto .info li a, .horario {
   color: #999;
   text-decoration: none;
 }
