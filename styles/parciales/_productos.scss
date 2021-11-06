@@ -59,6 +59,7 @@
 
     }
     &__side{
+        height: 75vh;
         @include movil{
             display: none;
         }
@@ -128,5 +129,5 @@
   }
 
 .navbar.navbar-dark{
-    max-height: 100vh !important;
+    height: 15vh !important;
 }

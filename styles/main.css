@@ -251,6 +251,10 @@ textarea {
   color: #a1b488;
 }
 
+.productos__side {
+  height: 75vh;
+}
+
 @media screen and (max-width: 475px) {
   .productos__side {
     display: none;
@@ -329,7 +333,7 @@ textarea {
 }
 
 .navbar.navbar-dark {
-  max-height: 100vh !important;
+  height: 15vh !important;
 }
 
 /*Este es el padding de Bienvenido*/
@@ -612,6 +616,10 @@ body {
   font-family: 'Mulish', sans-serif;
   font-size: 18px;
   background-color: #f0f2f5;
+}
+
+.bg-light {
+  height: 10vh;
 }
 
 .navbar {
