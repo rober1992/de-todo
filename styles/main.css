@@ -259,7 +259,7 @@ textarea {
 
 @media screen and (max-width: 475px) {
   .productos__side2--links {
-    height: 73vh;
+    height: 73%;
   }
 }
 
@@ -336,7 +336,7 @@ textarea {
 
 @media screen and (max-width: 475px) {
   .navbar.navbar-dark {
-    height: 15vh !important;
+    height: 15% !important;
   }
 }
 
@@ -624,7 +624,7 @@ body {
 
 @media screen and (max-width: 475px) {
   .bg-light {
-    height: 12vh;
+    height: 12%;
   }
 }
 

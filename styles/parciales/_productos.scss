@@ -66,7 +66,7 @@
     &__side2{
         &--links{
             @include movil{
-                height: 73vh;
+                height: 73%;
             }
         }
     }
@@ -136,6 +136,6 @@
 
 .navbar.navbar-dark{
     @include movil{
-    height: 15vh !important;
+    height: 15% !important;
     }
 }
