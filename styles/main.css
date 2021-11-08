@@ -251,13 +251,15 @@ textarea {
   color: #a1b488;
 }
 
-.productos__side {
-  height: 75vh;
-}
-
 @media screen and (max-width: 475px) {
   .productos__side {
     display: none;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .productos__side2 {
+    height: 73vh;
   }
 }
 
@@ -332,8 +334,10 @@ textarea {
   margin-bottom: 0;
 }
 
-.navbar.navbar-dark {
-  height: 15vh !important;
+@media screen and (max-width: 475px) {
+  .navbar.navbar-dark {
+    height: 15vh !important;
+  }
 }
 
 /*Este es el padding de Bienvenido*/
@@ -618,8 +622,10 @@ body {
   background-color: #f0f2f5;
 }
 
-.bg-light {
-  height: 10vh;
+@media screen and (max-width: 475px) {
+  .bg-light {
+    height: 12vh;
+  }
 }
 
 .navbar {

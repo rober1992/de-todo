@@ -59,9 +59,13 @@
 
     }
     &__side{
-        height: 75vh;
         @include movil{
             display: none;
+        }
+    }
+    &__side2{
+        @include movil{
+            height: 73vh;
         }
     }
     &__img{
@@ -129,5 +133,7 @@
   }
 
 .navbar.navbar-dark{
+    @include movil{
     height: 15vh !important;
+    }
 }

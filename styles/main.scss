@@ -13,7 +13,9 @@ body{
 }
 
 .bg-light{
-    height: 10vh;
+    @include movil{
+        height: 12vh;
+    }
 }
 
 
