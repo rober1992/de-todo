@@ -258,7 +258,7 @@ textarea {
 }
 
 @media screen and (max-width: 475px) {
-  .productos__side2 {
+  .productos__side2--links {
     height: 73vh;
   }
 }

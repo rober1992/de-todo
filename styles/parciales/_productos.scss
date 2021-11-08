@@ -64,8 +64,10 @@
         }
     }
     &__side2{
-        @include movil{
-            height: 73vh;
+        &--links{
+            @include movil{
+                height: 73vh;
+            }
         }
     }
     &__img{
