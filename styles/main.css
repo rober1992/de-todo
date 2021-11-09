@@ -228,6 +228,12 @@ textarea {
   border-bottom: solid 1px;
 }
 
+@media screen and (max-width: 475px) {
+  .productos__side--links ul li, .productos__side2--links ul li {
+    padding-bottom: 15px;
+  }
+}
+
 .productos__side--links ul li a, .productos__side2--links ul li a {
   text-decoration: none;
   color: white;
@@ -254,12 +260,6 @@ textarea {
 @media screen and (max-width: 475px) {
   .productos__side {
     display: none;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  .productos__side2--links {
-    height: 61%;
   }
 }
 
@@ -332,12 +332,6 @@ textarea {
   font-size: 1rem;
   color: #fff;
   margin-bottom: 0;
-}
-
-@media screen and (max-width: 475px) {
-  .navbar.navbar-dark {
-    height: 15% !important;
-  }
 }
 
 /*Este es el padding de Bienvenido*/
@@ -620,12 +614,6 @@ body {
   font-family: 'Mulish', sans-serif;
   font-size: 18px;
   background-color: #f0f2f5;
-}
-
-@media screen and (max-width: 475px) {
-  .bg-light {
-    height: 12%;
-  }
 }
 
 .navbar {

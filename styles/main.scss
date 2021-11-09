@@ -12,13 +12,6 @@ body{
     background-color: #f0f2f5;
 }
 
-.bg-light{
-    @include movil{
-        height: 12%;
-    }
-}
-
-
 .navbar{
     border-bottom: 1px solid #F2F2F2;
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
