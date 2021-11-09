@@ -4,6 +4,10 @@
     flex-direction: row;
     @include movil{
         display: block;
+        margin: 15px;
+    }
+    @include movxs{
+        margin: 5px;
     }
     @include tablet{
         display: block;

@@ -163,6 +163,13 @@ textarea {
 @media screen and (max-width: 475px) {
   .productos {
     display: block;
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .productos {
+    margin: 5px;
   }
 }
 
@@ -609,6 +616,29 @@ footer p {
   }
 }
 
+.modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal-body img {
+  width: 80%;
+}
+
+.modal-title {
+  color: black;
+  font-weight: 600;
+}
+
+.desc-modal {
+  color: black;
+  text-align: center;
+}
+
 body {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Mulish', sans-serif;
@@ -734,6 +764,18 @@ body {
   .navbar-brand .navbar-brand__imagen {
     width: 200px;
     padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 2559px) {
+  .navbar-brand .navbar-brand__imagen {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 991px) {
+  .navbar-brand .navbar-brand__imagen {
+    width: 280px;
   }
 }
 /*# sourceMappingURL=main.css.map */

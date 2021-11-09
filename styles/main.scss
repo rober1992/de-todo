@@ -4,6 +4,7 @@
 @import "./parciales/productos";
 @import "./parciales/iniciar-sesion";
 @import "./parciales/footer";
+@import "./parciales/modal";
 
 body{
     font-family: 'Bebas Neue', cursive;
@@ -103,6 +104,12 @@ body{
         @include movil{
             width: 200px;
             padding-left: 10px;
+        }
+        @include portatil{
+            width: 280px;
+        }
+        @include tablet{
+            width: 280px;
         }
 
     }
