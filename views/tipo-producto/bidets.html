@@ -29,6 +29,9 @@
     </button>
     <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
+        <spam class="cart"> 
+          <a href="#"><img src="/media/carrito.png" alt=""></a>
+        </spam>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="/index.html">INICIO</a>
         </li>
@@ -51,6 +54,7 @@
         <li class="nav-item">
           <a class="nav-link" href="/views/iniciar-sesion.html">INICIAR SESION</a>
         </li>
+
       </ul>
     </div>
   </div>
@@ -106,16 +110,11 @@
     <div class="row">
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/bidet/bidet-ferrum-marina.jpg" alt="bidet-ferrum-marina" class="producto__imagen">
+          <img src="/media/bidet/bidet-ferrum-marina.jpg" alt="bidet-ferrum-marina" class="producto__imagen" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <div class="informacion">
             <span class="precio">$6590</span>
             <span class="descripcion">Bidet Ferrum Marina</span>
           </div>
-          <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Descripcion
-</button>
-
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">

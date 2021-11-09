@@ -277,6 +277,10 @@ textarea {
   display: flex;
 }
 
+.productos__img:after {
+  background-image: url(/media/banitori.jpg);
+}
+
 .productos .container {
   background-color: white;
 }
@@ -639,6 +643,14 @@ footer p {
   text-align: center;
 }
 
+.modal-footer .btn {
+  background-color: #008dd4;
+}
+
+.modal-footer .btn:hover {
+  background-color: #083A59;
+}
+
 body {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Mulish', sans-serif;
@@ -777,5 +789,34 @@ body {
   .navbar-brand .navbar-brand__imagen {
     width: 280px;
   }
+}
+
+.cart img {
+  width: 40px;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 320px) {
+  .cart img {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .cart img {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 991px) {
+  .cart img {
+    margin-right: 0;
+  }
+}
+
+.cart img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=main.css.map */

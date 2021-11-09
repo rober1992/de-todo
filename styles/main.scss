@@ -51,6 +51,7 @@ body{
 }
 .producto:hover{
     box-shadow: 0 0 1.5em rgba(0, 0, 0, .3);
+    
 }
 
 .informacion{
@@ -116,6 +117,22 @@ body{
 
 }
 
-
+.cart img{
+    width: 40px;
+    margin-right: 20px;
+    padding-top: 5px;
+    @include movxs{
+        margin-right: 0;
+    }
+    @include movil{
+        margin-right: 0;
+    }
+    @include tablet{
+        margin-right: 0;
+    }
+}
+.cart img:hover{
+    transform: scale(1.1);
+}
 
 
