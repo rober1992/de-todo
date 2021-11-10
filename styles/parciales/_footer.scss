@@ -8,8 +8,10 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 20px;
     @include tablet{
-       padding: 40px;
+       padding-right: 10px;
+       padding-left: 10px;
    }
    @include movil{
        padding: 10px;
@@ -32,11 +34,9 @@ footer .pie .sec{
     margin-right: 30px;
     @include tablet{
         margin-right: 0;
-        margin-bottom: 40px;
     }
     @include movil{
        margin-right: 0;
-       margin-bottom: 40px;
    }
 }
 footer .pie .sec.nosotros{
@@ -125,6 +125,9 @@ footer p{
 }
 .contacto .info{
    position: relative;
+   @include tablet{
+       padding-left: 0px;
+   }
 }
 .contacto .info li{
    display: flex;

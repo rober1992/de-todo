@@ -119,16 +119,23 @@ body{
 
 .cart img{
     width: 40px;
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
     padding-top: 5px;
     @include movxs{
         margin-right: 0;
+        margin-left: 0;
+
     }
     @include movil{
+        margin-bottom: 15px;
         margin-right: 0;
+        margin-left: 0;
     }
     @include tablet{
+        margin-bottom: 15px;
         margin-right: 0;
+        margin-left: 0;
     }
 }
 .cart img:hover{

@@ -277,10 +277,6 @@ textarea {
   display: flex;
 }
 
-.productos__img:after {
-  background-image: url(/media/banitori.jpg);
-}
-
 .productos .container {
   background-color: white;
 }
@@ -381,11 +377,13 @@ footer {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 476px) and (max-width: 991px) {
   footer {
-    padding: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -435,14 +433,12 @@ footer .pie .sec {
 @media screen and (min-width: 476px) and (max-width: 991px) {
   footer .pie .sec {
     margin-right: 0;
-    margin-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 475px) {
   footer .pie .sec {
     margin-right: 0;
-    margin-bottom: 40px;
   }
 }
 
@@ -572,6 +568,12 @@ footer p {
 
 .contacto .info {
   position: relative;
+}
+
+@media screen and (min-width: 476px) and (max-width: 991px) {
+  .contacto .info {
+    padding-left: 0px;
+  }
 }
 
 .contacto .info li {
@@ -793,25 +795,31 @@ body {
 
 .cart img {
   width: 40px;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 15px;
   padding-top: 5px;
 }
 
 @media screen and (max-width: 320px) {
   .cart img {
     margin-right: 0;
+    margin-left: 0;
   }
 }
 
 @media screen and (max-width: 475px) {
   .cart img {
+    margin-bottom: 15px;
     margin-right: 0;
+    margin-left: 0;
   }
 }
 
 @media screen and (min-width: 476px) and (max-width: 991px) {
   .cart img {
+    margin-bottom: 15px;
     margin-right: 0;
+    margin-left: 0;
   }
 }
 
