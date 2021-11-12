@@ -8,15 +8,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200;0,700;1,200&display=swap"
     rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="/media/logo-canilla.jpg">
+  <link rel="icon" type="image/jpg" href="/media/logo-canilla.jpg">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="/styles/bootstrap.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles/main.css">
   <meta name="description" content="Descubre la mas amplia variedad de productos de sanitarios y gas">
   <meta name="keywords" content="TERMOTANQUE, REPUESTOS, BOMBAS, CAÑERIA, TANQUES">
-  
+
   <title>Productos</title>
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -58,22 +59,24 @@
 
 <div class="menu-productos">
   <div class="collapse" id="navbarToggleExternalContent">
-        <div class="productos__side2">
-          <nav class="productos__side--links">
-            <ul>
-              <li><a href="griferia.html">Griferia</a></li>
-              <li><a href="inodoros.html">Inodoros</a></li>
-              <li><a href="repuestos.html">Repuestos</a></li>
-              <li><a href="tanques.html">Tanques de agua</a></li>
-              <li><a href="bidets.html">Bidets</a></li>
-              <li><a href="bombas.html">Bombas de agua</a></li>
-            </ul>
-          </nav>
-        </div>
+    <div class="productos__side2">
+      <nav class="productos__side--links">
+        <ul>
+          <li><a href="griferia.html">Griferia</a></li>
+          <li><a href="inodoros.html">Inodoros</a></li>
+          <li><a href="repuestos.html">Repuestos</a></li>
+          <li><a href="tanques.html">Tanques de agua</a></li>
+          <li><a href="bidets.html">Bidets</a></li>
+          <li><a href="bombas.html">Bombas de agua</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
   <nav class="navbar navbar-dark">
     <div class="container-fluid desplegable">
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="bi bi-expand">
           <i class="fas fa-angle-double-down"></i>
         </span>
@@ -97,7 +100,7 @@
         <li><a href="tanques.html">Tanques de agua</a></li>
         <li><a href="bidets.html">Bidets</a></li>
         <li><a href="bombas.html">Bombas de agua</a></li>
-        
+
       </ul>
     </nav>
   </div>
@@ -108,55 +111,187 @@
     <div class="row">
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/griferia/libby.jpg" alt="canilla" class="producto__imagen">
+          <img src="/media/griferia/libby.jpg" alt="canilla-libby" class="producto__imagen" data-bs-toggle="modal"
+            data-bs-target="#canilla-libby">
           <div class="informacion">
             <span class="precio">$6590</span>
             <span class="descripcion">Libby - Juego para lavatorio FV</span>
           </div>
+          <!-- Modal -->
+          <div class="modal fade" id="canilla-libby" tabindex="-1" aria-labelledby="canilla-libbyLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="canilla-libbyLabel">Libby - Juego para lavatorio FV</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/griferia/libby.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Con cierre cerámico (1/4 de vuelta) presenta una tecnología avanzada de discos cerámicos que permiten movimientos de apertura y cierre suaves y precisos. No requiere mantenimiento y evita que la grifería gotee.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/griferia/denisse.jpg" alt="denisse" class="producto__imagen">
+          <img src="/media/griferia/denisse.jpg" alt="canilla-denisse" class="producto__imagen" data-bs-toggle="modal"
+            data-bs-target="#canilla-denisse">
           <div class="informacion">
             <span class="precio">$4560</span>
             <span class="descripcion">Denisse - Juego para lavatorio FV</span>
           </div>
+          <!-- Modal -->
+          <div class="modal fade" id="canilla-denisse" tabindex="-1" aria-labelledby="canilla-denisseLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="canilla-denisseLabel">Denisse - Juego para lavatorio FV</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/griferia/denisse.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Juego para lavatorio. Desagüe con tapita.Líneas con tecnología con cierre cerámico.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/griferia/dominic.jpg" alt="dominic" class="producto__imagen">
+          <img src="/media/griferia/dominic.jpg" alt="canilla-dominic" class="producto__imagen" data-bs-toggle="modal"
+            data-bs-target="#canilla-dominic">
           <div class="informacion">
             <span class="precio">$22800</span>
             <span class="descripcion">Dominic - Juego para lavatorio FV</span>
           </div>
+          <!-- Modal -->
+          <div class="modal fade" id="canilla-dominic" tabindex="-1" aria-labelledby="canilla-dominicLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="canilla-dominicLabel">Dominic - Juego para lavatorio FV</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/griferia/dominic.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Con cierre cerámico (1/4 de vuelta) presenta una tecnología avanzada de discos cerámicos que permiten movimientos de apertura y cierre suaves y precisos. No requiere mantenimiento y evita que la grifería gotee. </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/griferia/unimix.jpg" alt="unimix" class="producto__imagen">
+          <img src="/media/griferia/unimix.jpg" alt="canilla-unimix" class="producto__imagen" data-bs-toggle="modal"
+            data-bs-target="#canilla-unimix">
           <div class="informacion">
             <span class="precio">$18500</span>
             <span class="descripcion">Unimix - Juego monocomando para mesada de cocina FV</span>
           </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="producto">
-          <img src="/media/griferia/libby-monocomando.jpg" alt="libby-monocomando" class="producto__imagen">
-          <div class="informacion">
-            <span class="precio">$6590</span>
-            <span class="descripcion">Libby - Juego monocomando para pared de cocina FV</span>
+          <!-- Modal -->
+          <div class="modal fade" id="canilla-unimix" tabindex="-1" aria-labelledby="canilla-unimixLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="canilla-unimixLabel">Unimix - Juego monocomando para mesada de cocina FV</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/griferia/unimix.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Al ser una grifería monocomando proporcionan un control muy ajustado de la temperatura del agua. Un solo mando abre el paso del agua al accionarlo y ajusta la temperatura girando hacia la derecha o izquierda. El pico móvil permite llegar a cualquier parte de la pileta de cocina y el pico aireador evita que el chorro de agua salpique.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/griferia/malena.jpg" alt="malena" class="producto__imagen">
+          <img src="/media/griferia/libby-monocomando.jpg" alt="libby-monocomando" class="producto__imagen"
+            data-bs-toggle="modal" data-bs-target="#libby-monocomando">
+          <div class="informacion">
+            <span class="precio">$6590</span>
+            <span class="descripcion">Libby - Juego monocomando para pared de cocina FV</span>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="libby-monocomando" tabindex="-1" aria-labelledby="libby-monocomandoLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="libby-monocomandoLabel">Libby - Juego monocomando para pared de cocina FV</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/griferia/libby-monocomando.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Al ser una grifería monocomando proporcionan un control muy ajustado de la temperatura del agua. Un solo mando abre el paso del agua al accionarlo y ajusta la temperatura girando hacia la derecha o izquierda. El pico móvil permite llegar a cualquier parte de la pileta de cocina y el pico aireador evita que el chorro de agua salpique.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="producto">
+          <img src="/media/griferia/malena.jpg" alt="canilla-malena" class="producto__imagen" data-bs-toggle="modal"
+            data-bs-target="#canilla-malena">
           <div class="informacion">
             <span class="precio">$4560</span>
             <span class="descripcion">Malena – Juego para cocina / lavadero para embutir FV</span>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="canilla-malena" tabindex="-1" aria-labelledby="canilla-malenaLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="canilla-malenaLabel">Bomba Rowa Tango Press 20</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/griferia/malena.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Grifería para lavatorio pared de dos llaves FV línea Malena, cierre a vástago no ascendente. Cromo con transferencia cromo. Desagüe con tapita. Apto para calefón y termotanque</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -168,10 +303,12 @@
   <div class="pie">
     <div class="sec nosotros">
       <h2>Sobre Nosotros</h2>
-      <p>Contamos con un amplio catálogo de productos a excelentes precios. Por cualquier duda, dejanos tu consulta y te responderemos a la brevedad.</p>
-            <ul class="sci">
-      <li><a href="https://www.facebook.com/detodomartinez"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-    </ul>
+      <p>Contamos con un amplio catálogo de productos a excelentes precios. Por cualquier duda, dejanos tu consulta y te
+        responderemos a la brevedad.</p>
+      <ul class="sci">
+        <li><a href="https://www.facebook.com/detodomartinez"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+        </li>
+      </ul>
     </div>
     <div class="sec atajos">
       <h2>Links Principales</h2>
@@ -188,7 +325,7 @@
       <ul class="info">
         <li>
           <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i></span>
-          <span>Av. Santa Fe 1367<br> 
+          <span>Av. Santa Fe 1367<br>
             Martinez, San Isidro</span>
         </li>
         <li>
@@ -197,17 +334,19 @@
         </li>
         <li>
           <span><i class="fab fa-whatsapp" aria-hidden="true"></i></span>
-          <p><a href="https://api.whatsapp.com/send?phone=541150137513&fbclid=IwAR1_K2XEi2G7ZiDxPkwuOYQwaoWmud0bCV18gO5dET-lESyYInP3WSPyxZw">1550137513</a></p>
+          <p><a
+              href="https://api.whatsapp.com/send?phone=541150137513&fbclid=IwAR1_K2XEi2G7ZiDxPkwuOYQwaoWmud0bCV18gO5dET-lESyYInP3WSPyxZw">1550137513</a>
+          </p>
         </li>
         <li>
-        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
-        <p><a href="mailto:serviciosdetodo@hotmail.com">serviciosdetodo@hotmail.com</a></p>
-      </li>
-      <li>
-        <span><i class="fas fa-clock" aria-hidden="true"></i></span>
-        <span>Lunes a Viernes de 8:30 a 18:00hs<br>
-        Sabados de 8:30 a 13:00hs</span>
-      </li>
+          <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+          <p><a href="mailto:serviciosdetodo@hotmail.com">serviciosdetodo@hotmail.com</a></p>
+        </li>
+        <li>
+          <span><i class="fas fa-clock" aria-hidden="true"></i></span>
+          <span>Lunes a Viernes de 8:30 a 18:00hs<br>
+            Sabados de 8:30 a 13:00hs</span>
+        </li>
       </ul>
     </div>
   </div>
