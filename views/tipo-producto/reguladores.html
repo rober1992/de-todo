@@ -8,15 +8,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200;0,700;1,200&display=swap"
     rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="/media/logo-canilla.jpg">
+  <link rel="icon" type="image/jpg" href="/media/logo-canilla.jpg">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="/styles/bootstrap.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles/main.css">
   <meta name="description" content="Descubre la mas amplia variedad de productos de sanitarios y gas">
   <meta name="keywords" content="TERMOTANQUE, REPUESTOS, BOMBAS, CAÑERIA, TANQUES">
-  
+
   <title>Productos de gas</title>
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,7 +52,7 @@
         <li class="nav-item">
           <a class="nav-link" href="/views/iniciar-sesion.html">INICIAR SESION</a>
         </li>
-        <spam class="cart"> 
+        <spam class="cart">
           <a href="#"><img src="/media/carrito.png" alt=""></a>
         </spam>
       </ul>
@@ -61,20 +62,22 @@
 
 <div class="menu-productos">
   <div class="collapse" id="navbarToggleExternalContent">
-        <div class="productos__side2">
-          <nav class="productos__side--links">
-            <ul>
-              <li><a href="../tipo-producto/reguladores.html">Reguladores de presión</a></li>
-              <li><a href="../tipo-producto/termotanques.html">Termotanques</a></li>
-              <li><a href="../tipo-producto/repuestos-gas.html">Repuestos</a></li>
-              <li><a href="../tipo-producto/cañeria.html">Cañería</a></li>
-            </ul>
-          </nav>
-        </div>
+    <div class="productos__side2">
+      <nav class="productos__side--links">
+        <ul>
+          <li><a href="../tipo-producto/reguladores.html">Reguladores de presión</a></li>
+          <li><a href="../tipo-producto/termotanques.html">Termotanques</a></li>
+          <li><a href="../tipo-producto/repuestos-gas.html">Repuestos</a></li>
+          <li><a href="../tipo-producto/cañeria.html">Cañería</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
   <nav class="navbar navbar-dark">
     <div class="container-fluid desplegable">
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="bi bi-expand">
           <i class="fas fa-angle-double-down"></i>
         </span>
@@ -106,37 +109,129 @@
     <div class="row">
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/reguladores/regulador-Canplast-rigido.png" alt="canlplast-rigido" class="producto__imagen">
+          <img src="/media/reguladores/regulador-Canplast-rigido.png" alt="canlplast-rigido" class="producto__imagen"
+            data-bs-toggle="modal" data-bs-target="#canlplast-rigido">
           <div class="informacion">
             <span class="precio">$6590</span>
-            <span class="descripcion">Regulador Gas Natural 16 Mts3 Aprobado Canplast Rigido</span>
+            <span class="descripcion">Regulador Gas Natural 16 Mts3</span>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="canlplast-rigido" tabindex="-1" aria-labelledby="canlplast-rigido"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="canlplast-rigidoLabel">Regulador Gas Natural 16 Mts3</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/reguladores/regulador-Canplast-rigido.png" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Regulador Gas Natural 16 Mts3 Aprobado Canplast Rigido</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/reguladores/regulador-Canplast.jpg" alt="canplast" class="producto__imagen">
+          <img src="/media/reguladores/regulador-Canplast.jpg" alt="canplast" class="producto__imagen"
+            data-bs-toggle="modal" data-bs-target="#canplast">
           <div class="informacion">
             <span class="precio">$4560</span>
             <span class="descripcion">Regulador Gas Domiciliario 6 M/h Canplast</span>
           </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="producto">
-          <img src="/media/reguladores/regulador-nacional.png" alt="regulador-nacional" class="producto__imagen">
-          <div class="informacion">
-            <span class="precio">$22800</span>
-            <span class="descripcion">Regulador Gas Envasado Cabezal Para Garrafa De 10 Kg</span>
+          <!-- Modal -->
+          <div class="modal fade" id="canplast" tabindex="-1" aria-labelledby="canplastLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="canplastLabel">Regulador Gas Domiciliario 6 M/h Canplast</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/reguladores/regulador-Canplast.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Regulador 6 m³ con flexible CANPLAST</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/reguladores/salustri.png" alt="regulador-salustri" class="producto__imagen">
+          <img src="/media/reguladores/regulador-nacional.png" alt="regulador-nacional" class="producto__imagen"
+            data-bs-toggle="modal" data-bs-target="#regulador-nacional">
+          <div class="informacion">
+            <span class="precio">$22800</span>
+            <span class="descripcion">Regulador Gas Envasado 10 Kg</span>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="regulador-nacional" tabindex="-1" aria-labelledby="regulador-nacionalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="regulador-nacionalLabel">Regulador Gas Envasado 10 Kg</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/reguladores/regulador-nacional.png" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Regulador para gas envasado de 10-15 kg PAZ con manguera y cabezal chico</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="producto">
+          <img src="/media/reguladores/salustri.png" alt="regulador-salustri" class="producto__imagen"
+            data-bs-toggle="modal" data-bs-target="#regulador-salustri">
           <div class="informacion">
             <span class="precio">$22800</span>
             <span class="descripcion">Regulador Gas Natural Gs 10 M3/h Salustri</span>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="regulador-salustri" tabindex="-1" aria-labelledby="regulador-salustriLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="regulador-salustriLabel">Regulador Gas Natural Gs 10 M3/h Salustri</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/reguladores/salustri.png" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Regulador Salustri De Presion De Gas Natural De 10 Mts / H Nuevo y moderno diseño incorporando mejoras.
+                    Regulador de dos etapas inyectado en aluminio lo que reduce notablemente su peso.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -148,10 +243,12 @@
   <div class="pie">
     <div class="sec nosotros">
       <h2>Sobre Nosotros</h2>
-      <p>Contamos con un amplio catálogo de productos a excelentes precios. Por cualquier duda, dejanos tu consulta y te responderemos a la brevedad.</p>
-            <ul class="sci">
-      <li><a href="https://www.facebook.com/detodomartinez"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-    </ul>
+      <p>Contamos con un amplio catálogo de productos a excelentes precios. Por cualquier duda, dejanos tu consulta y te
+        responderemos a la brevedad.</p>
+      <ul class="sci">
+        <li><a href="https://www.facebook.com/detodomartinez"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+        </li>
+      </ul>
     </div>
     <div class="sec atajos">
       <h2>Links Principales</h2>
@@ -168,7 +265,7 @@
       <ul class="info">
         <li>
           <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i></span>
-          <span>Av. Santa Fe 1367<br> 
+          <span>Av. Santa Fe 1367<br>
             Martinez, San Isidro</span>
         </li>
         <li>
@@ -177,17 +274,19 @@
         </li>
         <li>
           <span><i class="fab fa-whatsapp" aria-hidden="true"></i></span>
-          <p><a href="https://api.whatsapp.com/send?phone=541150137513&fbclid=IwAR1_K2XEi2G7ZiDxPkwuOYQwaoWmud0bCV18gO5dET-lESyYInP3WSPyxZw">1550137513</a></p>
+          <p><a
+              href="https://api.whatsapp.com/send?phone=541150137513&fbclid=IwAR1_K2XEi2G7ZiDxPkwuOYQwaoWmud0bCV18gO5dET-lESyYInP3WSPyxZw">1550137513</a>
+          </p>
         </li>
         <li>
-        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
-        <p><a href="mailto:serviciosdetodo@hotmail.com">serviciosdetodo@hotmail.com</a></p>
-      </li>
-      <li>
-        <span><i class="fas fa-clock" aria-hidden="true"></i></span>
-        <span>Lunes a Viernes de 8:30 a 18:00hs<br>
-        Sabados de 8:30 a 13:00hs</span>
-      </li>
+          <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+          <p><a href="mailto:serviciosdetodo@hotmail.com">serviciosdetodo@hotmail.com</a></p>
+        </li>
+        <li>
+          <span><i class="fas fa-clock" aria-hidden="true"></i></span>
+          <span>Lunes a Viernes de 8:30 a 18:00hs<br>
+            Sabados de 8:30 a 13:00hs</span>
+        </li>
       </ul>
     </div>
   </div>
