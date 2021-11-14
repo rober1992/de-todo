@@ -8,15 +8,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200;0,700;1,200&display=swap"
     rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="/media/logo-canilla.jpg">
+  <link rel="icon" type="image/jpg" href="/media/logo-canilla.jpg">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="/styles/bootstrap.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles/main.css">
   <meta name="description" content="Descubre la mas amplia variedad de productos de sanitarios y gas">
   <meta name="keywords" content="TERMOTANQUE, REPUESTOS, BOMBAS, CAÑERIA, TANQUES">
-  
+
   <title>Productos</title>
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -38,8 +39,8 @@
             PRODUCTOS
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="../clase-producto/sanitarios.html">Sanitarios</a></li>
-            <li><a class="dropdown-item" href="../clase-producto/gas.html">Gas</a></li>
+            <li><a class="dropdown-item" href="../tipo-producto/griferia.html">Sanitarios</a></li>
+            <li><a class="dropdown-item" href="../tipo-producto/reguladores.html">Gas</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -51,7 +52,7 @@
         <li class="nav-item">
           <a class="nav-link" href="/views/iniciar-sesion.html">INICIAR SESION</a>
         </li>
-        <spam class="cart"> 
+        <spam class="cart">
           <a href="#"><img src="/media/carrito.png" alt=""></a>
         </spam>
       </ul>
@@ -61,22 +62,24 @@
 
 <div class="menu-productos">
   <div class="collapse" id="navbarToggleExternalContent">
-        <div class="productos__side2">
-          <nav class="productos__side--links">
-            <ul>
-              <li><a href="griferia.html">Griferia</a></li>
-              <li><a href="inodoros.html">Inodoros</a></li>
-              <li><a href="repuestos.html">Repuestos</a></li>
-              <li><a href="tanques.html">Tanques de agua</a></li>
-              <li><a href="bidets.html">Bidets</a></li>
-              <li><a href="bombas.html">Bombas de agua</a></li>
-            </ul>
-          </nav>
-        </div>
+    <div class="productos__side2">
+      <nav class="productos__side--links">
+        <ul>
+          <li><a href="griferia.html">Griferia</a></li>
+          <li><a href="inodoros.html">Inodoros</a></li>
+          <li><a href="repuestos.html">Repuestos</a></li>
+          <li><a href="tanques.html">Tanques de agua</a></li>
+          <li><a href="bidets.html">Bidets</a></li>
+          <li><a href="bombas.html">Bombas de agua</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
   <nav class="navbar navbar-dark">
     <div class="container-fluid desplegable">
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="bi bi-expand">
           <i class="fas fa-angle-double-down"></i>
         </span>
@@ -100,7 +103,7 @@
         <li><a href="tanques.html">Tanques de agua</a></li>
         <li><a href="bidets.html">Bidets</a></li>
         <li><a href="bombas.html">Bombas de agua</a></li>
-        
+
       </ul>
     </nav>
   </div>
@@ -111,37 +114,125 @@
     <div class="row">
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/tanques/eternit-500-bajo.jpg" alt="eternit-500" class="producto__imagen">
+          <img src="/media/tanques/eternit-500-bajo.jpg" alt="eternit-500" class="producto__imagen"
+            data-bs-toggle="modal" data-bs-target="#eternit-500">
           <div class="informacion">
             <span class="precio">$6590</span>
-            <span class="descripcion">Tanque eternit polietileno tricapa x 500 lt bajo techo</span>
+            <span class="descripcion">Tanque eternit polietileno tricapa 500 lt bajo techo</span>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="eternit-500" tabindex="-1" aria-labelledby="eternit-500Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="eternit-500Label">Tanque eternit polietileno tricapa 500 lt bajo techo</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/tanques/eternit-500-bajo.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Este producto Eternit Bajo Techo te permitirá almacenar agua en las mejores condiciones y conservar todas sus propiedades para utilizarla cuando necesites. Su estructura de gran resistencia evita el paso de la luz exterior al interior del tanque, por lo que podrás ubicarlo en ambientes exteriores sin inconvenientes.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/tanques/milenios-1000.jpg" alt="milenios-1000" class="producto__imagen">
+          <img src="/media/tanques/milenios-1000.jpg" alt="milenios-1000" class="producto__imagen"
+            data-bs-toggle="modal" data-bs-target="#milenios-1000">
           <div class="informacion">
             <span class="precio">$4560</span>
             <span class="descripcion">Tanque de acero inoxidable Milenios x 1000 lt</span>
           </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="producto">
-          <img src="/media/tanques/rotoplas-flat.jpg" alt="rotoplas-flat" class="producto__imagen">
-          <div class="informacion">
-            <span class="precio">$22800</span>
-            <span class="descripcion">Tanque Rotoplas polietileno multicapa 500 flat</span>
+          <!-- Modal -->
+          <div class="modal fade" id="milenios-1000" tabindex="-1" aria-labelledby="milenios-1000Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="milenios-1000Label">Tanque de acero inoxidable Milenios 1000 lt</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/tanques/milenios-1000.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Su estructura de acero inoxidable mantiene grandes volúmenes de agua a bajas temperaturas. Además, su material anticorrosivo y su resistencia lo convierten en un producto ideal para el almacenamiento de líquidos.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="producto">
-          <img src="/media/tanques/TANQUE-POLIET-TRICAPA---600-L-GRIS-ROTOPLAS.jpg" alt="unimix" class="producto__imagen">
+          <img src="/media/tanques/rotoplas-flat.jpg" alt="rotoplas-flat" class="producto__imagen"
+            data-bs-toggle="modal" data-bs-target="#rotoplas-flat">
+          <div class="informacion">
+            <span class="precio">$22800</span>
+            <span class="descripcion">Tanque Rotoplas polietileno multicapa 500 flat</span>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="rotoplas-flat" tabindex="-1" aria-labelledby="rotoplas-flatLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="rotoplas-flatLabel">Tanque Rotoplas polietileno multicapa 500 flat</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/tanques/rotoplas-flat.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Tapa Click Impide la entrada de insectos e impurezas. Evita que el viento se la lleve. Su apertura y cierre no requiere de herramientas. Fácil de accionar, de acople perfecto</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="producto">
+          <img src="/media/tanques/TANQUE-POLIET-TRICAPA---600-L-GRIS-ROTOPLAS.jpg" alt="rotoplas-600"
+            class="producto__imagen" data-bs-toggle="modal" data-bs-target="#rotoplas-600">
           <div class="informacion">
             <span class="precio">$18500</span>
-            <span class="descripcion">Tanque Rotoplas polietileno multicapa x 600 lt</span>
+            <span class="descripcion">Tanque Rotoplas polietileno multicapa 600 lt</span>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="rotoplas-600" tabindex="-1" aria-labelledby="rotoplas-600Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="rotoplas-600Label">Tanque Rotoplas polietileno multicapa 600 lt</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="/media/tanques/TANQUE-POLIET-TRICAPA---600-L-GRIS-ROTOPLAS.jpg" alt="">
+                </div>
+                <div class="desc-modal">
+                  <p>Únicos con Garantía Rotoplas, sin fisuras ni filtraciones. Su tapa click con cierre perfecto evita la entrada de contaminantes al agua. Fáciles de instalar, no se necesitan herramientas especializadas. Son ligeros, lo que facilita su manejo.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -153,10 +244,12 @@
   <div class="pie">
     <div class="sec nosotros">
       <h2>Sobre Nosotros</h2>
-      <p>Contamos con un amplio catálogo de productos a excelentes precios. Por cualquier duda, dejanos tu consulta y te responderemos a la brevedad.</p>
-            <ul class="sci">
-      <li><a href="https://www.facebook.com/detodomartinez"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-    </ul>
+      <p>Contamos con un amplio catálogo de productos a excelentes precios. Por cualquier duda, dejanos tu consulta y te
+        responderemos a la brevedad.</p>
+      <ul class="sci">
+        <li><a href="https://www.facebook.com/detodomartinez"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+        </li>
+      </ul>
     </div>
     <div class="sec atajos">
       <h2>Links Principales</h2>
@@ -164,8 +257,8 @@
         <li><a href="/views/quienes-somos.html">Quienes Somos</a></li>
         <li><a href="/views/iniciar-sesion.html">Iniciar Sesion</a></li>
         <li><a href="/views/contacto.html">Contacto</a></li>
-        <li><a href="../clase-producto/sanitarios.html">Sanitarios</a></li>
-        <li><a href="../clase-producto/gas.html">Gas</a></li>
+        <li><a href="../tipo-producto/griferia.html">Sanitarios</a></li>
+        <li><a href="../tipo-producto/reguladores.html">Gas</a></li>
       </ul>
     </div>
     <div class="sec contacto">
@@ -173,7 +266,7 @@
       <ul class="info">
         <li>
           <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i></span>
-          <span>Av. Santa Fe 1367<br> 
+          <span>Av. Santa Fe 1367<br>
             Martinez, San Isidro</span>
         </li>
         <li>
@@ -182,17 +275,19 @@
         </li>
         <li>
           <span><i class="fab fa-whatsapp" aria-hidden="true"></i></span>
-          <p><a href="https://api.whatsapp.com/send?phone=541150137513&fbclid=IwAR1_K2XEi2G7ZiDxPkwuOYQwaoWmud0bCV18gO5dET-lESyYInP3WSPyxZw">1550137513</a></p>
+          <p><a
+              href="https://api.whatsapp.com/send?phone=541150137513&fbclid=IwAR1_K2XEi2G7ZiDxPkwuOYQwaoWmud0bCV18gO5dET-lESyYInP3WSPyxZw">1550137513</a>
+          </p>
         </li>
         <li>
-        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
-        <p><a href="mailto:serviciosdetodo@hotmail.com">serviciosdetodo@hotmail.com</a></p>
-      </li>
-      <li>
-        <span><i class="fas fa-clock" aria-hidden="true"></i></span>
-        <span>Lunes a Viernes de 8:30 a 18:00hs<br>
-        Sabados de 8:30 a 13:00hs</span>
-      </li>
+          <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+          <p><a href="mailto:serviciosdetodo@hotmail.com">serviciosdetodo@hotmail.com</a></p>
+        </li>
+        <li>
+          <span><i class="fas fa-clock" aria-hidden="true"></i></span>
+          <span>Lunes a Viernes de 8:30 a 18:00hs<br>
+            Sabados de 8:30 a 13:00hs</span>
+        </li>
       </ul>
     </div>
   </div>
