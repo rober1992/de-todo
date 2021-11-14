@@ -147,9 +147,13 @@ body{
     background-size: 100%;
     height: 70vh;
     margin-top: 20px;
+    margin-left: 11px;
+    margin-right: 11px;
     @include movil{
         background-repeat: no-repeat;
         height: 20vh;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
