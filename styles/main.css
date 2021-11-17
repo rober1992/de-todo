@@ -840,7 +840,7 @@ body {
 @media screen and (max-width: 475px) {
   .agua {
     background-repeat: no-repeat;
-    height: 20vh;
+    height: 50vh;
     margin-left: 0;
     margin-right: 0;
   }
