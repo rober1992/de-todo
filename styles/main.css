@@ -300,6 +300,12 @@ textarea {
   }
 }
 
+@media screen and (min-width: 476px) and (max-width: 991px) {
+  .menu-productos {
+    display: none;
+  }
+}
+
 .menu-productos .navbar-toggler {
   background: #042d47;
   background: -webkit-gradient(linear, left top, right top, color-stop(19%, #042d47), color-stop(46%, #10476a), color-stop(59%, #0d537c), to(#008dd4));

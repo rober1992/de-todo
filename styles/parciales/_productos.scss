@@ -95,6 +95,9 @@
      @include uhd{
          display: none;
      }
+     @include tablet{
+         display: none;
+     }
     
     }
 
